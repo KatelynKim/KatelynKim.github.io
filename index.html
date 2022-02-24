@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Katelyn Kim</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Saira&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style/style.css">
+        <script>
+            // When the user scrolls the page, execute myFunction 
+            window.onscroll = function() {myFunction()};
+            
+            function myFunction() { 
+              var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+              var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+              var scrolled = (winScroll / height) * 100;
+              document.getElementById("progress-bar").style.height= scrolled + "%";
+              console.log(scrolled)
+              
+            }
+            </script>
+    </head>
+    <body>
+
+        <div class="custom-shape-divider-top-1645674818">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        
+        <div class="progress-container">
+            <div id="progress-bar" class="progress-bar">
+            </div>
+        </div>
+       
+
+        <ul class="nav-bar">
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#work-experience">WORK EXPERIENCE</a></li>
+            <li><a href="#technical-projects">TECHNICAL PROJECTS</a></li>
+            <li><a href="#personal-projects">PERSONAL PROJECTS</a></li>
+            <li><a href="#education">EDUCATION</a></li> 
+        </ul>
+        
+        <div class="download-resume"> 
+            <p> <i class="fa-solid fa-download"></i> DOWNLOAD</p>            
+        </div>
+
+        <div class="resume">     
+ 
+            <section class="basic-info ">
+                <h1> Katelyn Kim </h1>
+                <h3> Coquitlam, BC | +1 604 440 5203 | <i class="fa-solid fa-envelope"></i> | <a href="https://www.linkedin.com/in/jin-young-kim1994" target="_blank"> <i class="fa-brands fa-linkedin"></i></a></h3>
+                
+            </section> 
+            
+            <div class="section-title">
+                <h3> SKILLS </h3>
+            </div>
+
+            <section id="skills" class="skills">
+                <ul class="languages"> 
+                    <li>Python</li>
+                    <li>VB.NET</li>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li> 
+                    <!-- <li>Operating systems: Windows, Linux</li>
+                    <li>UI design: Figma</li> -->
+                </ul>  
+            </section>
+
+            <div class="section-title">
+                <h3> WORK</br>EXPERIENCE</h3>
+            </div>
+
+            <section id="work-experience" class="work-experience content-section">   
+                    <div class="mercur">
+                        <h3 class="job-title"> <i class="fa-solid fa-code descriptor-icon"></i> APPLICATION DEVELOPER</h3> 
+                        <h5 class="company-name">Mercur IT Solutions   </h5>  
+                        <h5 class="period">Sep 2021 - April 2021 </h5>     
+                        <ul class="keywords"> 
+                            <li>VB.NET/Python/C#</li> 
+                            <li>fullstack_development</li>
+                            <li>data_wrangling</li> 
+                        </ul>  
+
+                        <ul>
+                            <li>
+                                Developed a multithreaded application in VB.NET that processes text/video/image/pdf files in a network drive by making asynchronous RESTful API calls and saves processed data in MySQL database.
+                            </li>
+                            <li> Developed in VB.NET a recovery process for the multithreaded application to handle stale jobs resulting from an app crash. </li>
+                            <li> Developed in Python a data export process that preprocesses and exports categorical and textual data for model building. </li>
+                            <li> Implemented web components in Dark Crawler including a scoreboard page for displaying suspicious users based on weighted activity scores and a user profile page visualizing user statistics in ASP.NET and VB.NET. </li>
+                        </ul>
+                    </div>
+    
+                    <div class="open-technologies">
+                        <h3 class="job-title"> <i class="fa-solid fa-house-chimney descriptor-icon"></i>  RESEARCH AND PROGRAM COORDINATOR</h3> 
+                        <h5 class="company-name">OPEN Technologies </h5>  
+                        <h5 class="period">Oct 2020 - Dec 2020 </h5>
+                        <ul class="keywords"> 
+                            <li>data_wrangling</li> 
+                            <li>model_building</li>
+                            <li>exploratory_analysis</li> 
+                        </ul>  
+                        <ul>
+                            <li> Independently performed an in-depth feasibility analysis of a prospective application that gives a roadmap of retrofit options for homeowners.</li>
+                            <li> Collected, merged, and cleaned large datasets from different sources such as EnerGuide Canada, Census, and Stats Can.</li>
+                            <li> Used supervised and unsupervised models to predict house attributes such as furnace and fuel types and electricity consumption.</li>
+                            <li> Presented all work done in daily meetings and presented the analysis results to the CEO and the team.</li>
+                        </ul>
+                    </div>  
+    
+                    <div class="cactus">
+                        <h3 class="job-title"> <i class="fa-solid fa-language descriptor-icon"></i>  SENIOR MEDICAL TRNASLATOR/REVIEWER</h3> 
+                        <h5 class="company-name"> CACTUS Communications </h5>  
+                        <h5 class="period">June 2016 - PRESENT </h5>
+                        <ul class="keywords"> 
+                            <li>technical_writing</li> 
+                            <li>customer_handling</li> 
+                        </ul>  
+                        <ul>
+                            <li> Translate medical articles including research papers, clinical trial protocols, and medical records from Korean to English.</li>
+                            <li> Review/revise translated papers and provide feedback to junior translators.</li>
+                            <li> Communicate with clients to clarify unclear points in source text and suggest revisions.</li>
+                            <li> Have maintained high client ratings.</li>
+                        </ul>
+                    </div>     
+                        
+            </section>
+            <div class="section-title">
+                <h3> TECHNICAL PROJECTS</h3>
+            </div>
+
+            <section id="technical-projects" class="technical-projects content-section">
+                <div class="project">
+                    <h3><i class="fa-solid fa-chart-line descriptor-icon"></i> GITLAB ANALYZER</h3>
+                    <h5 class="company-name"> CMPT 373 - Software Development Methods</h5>  
+                    <ul class="keywords"> 
+                        <li>JavaScript</li> 
+                        <li>React</li>
+                        <li>Data visualization</li>
+                        <li>UI/UX_design</li>                
+                    </ul>  
+
+                    <ul>
+                        <li> Contributed to frontend development for a web app analyzing students' GitLab contributions using React and Material UI.</li>
+                        <li>
+                            Implemented key features including data fetching/posting using axios, data visualization using Chart.js and Material UI components, and page navigation.
+                        </li>                       
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h3><i class="fa-solid fa-capsules descriptor-icon"></i> UTI PREDICTOR</h3>
+                    <ul class="keywords"> 
+                        <li>Python</li>
+                        <li>Data_mining</li> 
+                        <li>Data_visualization</li>
+                        <li>JavaScript</li> 
+                        <li>React</li>                        
+                        <li>UI/UX_design</li>               
+                    </ul>  
+                    <ul>
+                        <li>Developed a web app predicting antimicrobial resistance against urinary tract infection and recommending antibiotics.</li>
+                        <li>Compared the performance of ML models and improved their accuracy via data cleaning, sampling, and hyperparameter tuning using Numpy, Pandas, and Ibmlearn libraries.</li>
+                        <li>Achieved prediction accuracy comparable to that achieved by an existing study using the same dataset.</li>          
+                        <li>Designed the UI using Figma and contributed to frontend development using React.</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h3> <i class="fa-solid fa-face-grin-stars descriptor-icon"></i>  MULTIMODAL EMOTION DETECTION PROJECT</h3>
+                    <ul class="keywords"> 
+                        <li>Python</li>
+                        <li>Data_mining</li>   
+                        <li>Image_analysis</li>     
+                        <li>Audio_analysis</li>         
+                    </ul>
+                    <ul>
+                        <li>Classified six emotions in smiles and laughter using a multimodal approach (image and audio) and a self-created naturalistic dataset.</li>
+                        <li>Extracted features including action unit, eye gaze, and mel-frequency cepstral coefficient using OpenCV and Librosa libraries.</li>                       
+                        <li>Manipulated and cleaned data using libraries including Numpy and Pandas.</li>
+                        <li>Used scikit-learn's ML algorithms including SVM and decision tree to classify emotions.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="section-title">
+                <h3> PERSONAL PROJECTS</h3>
+            </div>
+            <section id="personal-projects" class="personal-projects content-section">
+                <div class="personal-project">
+                    <h3> <i class="fa-solid fa-spell-check descriptor-icon"></i>   KOR-ENG MEDICAL DICTIONARY</h3>
+                    <ul class="keywords"> 
+                        <li>Python</li>
+                        <li>Django</li>  
+                        <li>React</li>   
+                        <li>Web_scraping</li>  
+                        <li>CRUD</li>     
+                        <li>API_development</li>         
+                    </ul>
+                    <ul>
+                        <li>Developed a Korean-to-English medical dictionary for personal use using Django, Sqlite, and React.</li>
+                        <li>Designed RESTful APIs with different permission levels using Django Rest Framework.</li>                       
+                        <li>Performed web scraping using BeautifulSoup to provide term context.</li>
+                        <li>Implemented CRUD operations.</li>
+                    </ul>
+                </div>
+            </section>
+
+            
+            <div class="section-title">
+                <h3> EDUCATION</h3>
+            </div>
+            <section id="education" class="education content-section">         
+                <div class="university">
+                    <h3> <a href="https://www.sfu.ca/"><i class="fa-solid fa-building-columns descriptor-icon"></i>  SIMON FRASER UNIVERSITY </a></h3>
+                    <h5 class="period"> Sep 2016 - PRESENT</h5> 
+                    <h5> Bachelor of Applied Science - Computing Science | Expected graduation: 2023 </h5>
+                    
+                </div>   
+                <div class="university">
+                    <h3> <i class="fa-solid fa-building-columns descriptor-icon"></i>  MCGILL UNIVERSITY</h3>
+                    <h5 class="period"> Sep 2012 - May 2016 </h5> 
+                    <h5> Bachelor of Science - Pharmacology </h5>                    
+                </div>    
+            </section>
+
+            <div class="section-title">
+                <h3> INTERESTS</h3>
+            </div>
+
+            <section id="interests" class="interests content-section">         
+                 <ul class="interest-list">
+                     <li> piano </li>
+                 </ul>
+                
+            </section>
+
+             
+            
+            
+        </div>
+ 
+
+
+
+    </body>
+
+
+
+
+
+
+</html>
