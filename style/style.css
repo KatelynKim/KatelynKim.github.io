@@ -4,8 +4,7 @@
 body {
     font-family: 'Saira', sans-serif; 
     /* background-color: #14213d; */
-    color: rgb(51, 51, 51);
-    
+    color: rgb(51, 51, 51);    
 }
 
 a {
@@ -20,7 +19,7 @@ li{
     position:fixed;
     top:0;
     height: 100%;
-    width: 4px;
+    width: 6px;
     background: #ccc;
     z-index:1000;
   }
@@ -28,8 +27,8 @@ li{
 .progress-bar {     
     position:fixed;    
     top:0;
-    width:4px;
-    background: #e07a5f;
+    width:6px;
+    background: #81b29a;
     z-index:2000;
 }
 .project, .work {
@@ -74,7 +73,7 @@ li{
 }
 
 .download-resume:hover {
-    background-color: #e63946;
+    background-color: #E07A5F;
     color: white;
     transition: 0.7s;
 }
@@ -82,10 +81,8 @@ li{
 .resume { 
     display: grid;      
     grid-template-columns: 1fr 4.5fr;  
-    align-items: center;
-    gap:2px;
-    position: relative; 
-    background-color: white;
+    align-items: center; 
+    position: relative;  
     width: 50%;
     left: 50%; 
     transform: translate(-50%,0);
@@ -94,6 +91,46 @@ li{
     z-index: 100;
     
     
+}
+.custom-shape-divider-top-1645729582 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1645729582 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 95px;
+}
+
+.custom-shape-divider-top-1645729582 .shape-fill {
+    fill: #E07A5F;
+}
+
+.custom-shape-divider-bottom-1645729630 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1645729630 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 95px;
+}
+
+.custom-shape-divider-bottom-1645729630 .shape-fill {
+    fill: #E07A5F;
 }
 /* .resume::before,
 .resume::after {
