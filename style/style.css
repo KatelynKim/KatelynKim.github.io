@@ -3,7 +3,7 @@
 }
 body {
     font-family: 'Saira', sans-serif; 
-    background-color: #14213d;
+    /* background-color: #14213d; */
     color: rgb(51, 51, 51);
     
 }
@@ -29,10 +29,16 @@ li{
     position:fixed;    
     top:0;
     width:4px;
-    background: rgb(255, 210, 80);
+    background: #e07a5f;
     z-index:2000;
 }
-
+.project, .work {
+    padding: 1rem;
+}
+.project:hover, .work:hover { 
+    background-color: #f4f1de;
+    transition: 0.3s;
+}
 .nav-bar {
     position:fixed;
     list-style: none;     
@@ -43,7 +49,8 @@ li{
 .nav-bar li, .nav-bar li a{
     margin-top: 2em;  
     /* color: rgb(255, 210, 80) */
-    color: rgb(248, 248, 248);
+    /* color: rgb(248, 248, 248); */
+    color:rgb(51, 51, 51);
     letter-spacing: 2px; 
 }
 
@@ -58,11 +65,12 @@ li{
     right: 2rem;
     font-weight: 700;
     font-size:25px;
-    color: #e63946;
+    color: rgb(51, 51, 51);
     background-color: rgb(255, 210, 80);
-    border: 2px #e63946 dashed;
+    border: 2px rgb(51, 51, 51) dashed;
     padding: 0rem 3rem;   
     letter-spacing: 2px;    
+    z-index:3000;
 }
 
 .download-resume:hover {
@@ -87,7 +95,7 @@ li{
     
     
 }
-.resume::before,
+/* .resume::before,
 .resume::after {
   content: "";
   width: 100%;
@@ -115,7 +123,7 @@ li{
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-}
+} */
 
 .languages li {
     display: inline;
@@ -145,7 +153,7 @@ li{
     text-align: right; 
     padding-right: 1em;
     /* background-color: rgb(248, 248, 248); */
-    background-color: #ccc5b9;
+    /* background-color: #ccc5b9; */
     color: rgb(51, 51, 51);
     height: 100%;  
     letter-spacing: 2px;
@@ -192,22 +200,23 @@ li{
 .descriptor-icon {
     margin-right: 1rem;
 }
-.custom-shape-divider-top-1645674818 {
-    position: absolute;
-    top: 0;
+.custom-shape-divider-bottom-1645726848 {
+    position: relative;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1645674818 svg {
+.custom-shape-divider-bottom-1645726848 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 333px;
+    height: 178px;
 }
 
-.custom-shape-divider-top-1645674818 .shape-fill {
-    fill: #FFFFFF;
+.custom-shape-divider-bottom-1645726848 .shape-fill {
+    fill: #E07A5F;
 }
