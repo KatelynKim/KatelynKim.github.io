@@ -34,9 +34,11 @@
             }, 100)
 
             setTimeout(()=>{
-                let intro = document.querySelector('.custom-shape-divider-top')
+                let dividerTop = document.querySelector('.custom-shape-divider-top')
+                let dividerTopBeneath =  document.querySelector('.custom-shape-divider-top-beneath')
                 let navBar = document.querySelector('.nav-bar')
-                intro.style.top = '0'
+                dividerTop.style.top = '0'
+                dividerTopBeneath.style.top = '0'
                 navBar.style.left = '0%'          
             }, 500)
  
@@ -51,6 +53,12 @@
         <img src="./images/program.jpg" alt="Italian Trulli" style="position: fixed; left:-2%; bottom:0; width:30vw; height: auto; margin:0; opacity:0.9"> -->
 
         <div class="custom-shape-divider-top">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="custom-shape-divider-top-beneath">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
             </svg>
@@ -79,7 +87,7 @@
  
             <section class="basic-info ">
                 <h1> Katelyn Kim </h1>
-                <h3> Coquitlam, BC | +1 604 440 5203 | <i class="fa-solid fa-envelope"></i> | <a href="https://www.linkedin.com/in/jin-young-kim1994" target="_blank"> <i class="fa-brands fa-linkedin"></i></a></h3>
+                <h3> Coquitlam, BC | +1 604 440 5203 | wlsdud194@hotmail.com | <a href="https://www.linkedin.com/in/jin-young-kim1994" target="_blank"> <i class="fa-brands fa-linkedin"></i></a></h3>
             </section> 
             
             <div class="section-title">
@@ -101,7 +109,7 @@
             </section>
 
             <div class="section-title">
-                <h3> WORK</br>EXPERIENCE</h3>
+                <h3 class="title"> WORK</br>EXPERIENCE</h3>
             </div>
 
             <section id="work-experience" class="work-experience content-section">   
