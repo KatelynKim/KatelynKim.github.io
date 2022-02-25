@@ -55,12 +55,21 @@ li{
     z-index:1000;
   }
 
+  
 .progress-bar {     
     position:fixed;    
     top:0;
     width:6px;
     background: #06d6a0;
     z-index:2000;
+}
+
+.job-title, .project-name{
+    margin-bottom:2px;
+}
+
+.course-name {
+    margin:0;
 }
 .project, .work {
     padding: 1rem 1rem;
@@ -256,11 +265,7 @@ li{
 .basic-info h3 {
     margin:2px;
 }
-  
-  
-.job-title {
-    margin: 0;  
-}
+   
  
 .company-name, .period {
     display: inline-block; 
@@ -278,7 +283,15 @@ li{
     display: inline; 
     
 }
-  
+
+.contact-me {
+     position:fixed; 
+     bottom:2rem; 
+     right:-3rem; 
+     letter-spacing: 2px; 
+     text-align: center;
+     transition:2s;
+}
 .descriptor-icon {
     margin-right: 1rem;
 }
