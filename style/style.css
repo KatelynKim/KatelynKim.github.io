@@ -116,6 +116,8 @@ li{
     padding: 2em;
     margin-top: 5%; 
     z-index: 100;
+    transition: 1s;
+    opacity:0;
     
     
 }
@@ -191,7 +193,9 @@ li{
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 } */
 
+
 .profile-img {   
+    opacity:0;  
     border-radius:50%;  
     width:150px;
     height:150px;
