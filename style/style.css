@@ -14,6 +14,19 @@ body {
     overflow: scroll;
 }
 
+footer {
+    width:50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 2px rgb(51, 51, 51) dotted;
+    text-align: center;
+    margin-top:1vh;
+    padding-top:2vh;
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
+
 .intro { 
     position:fixed;
     height: 100%;
@@ -46,7 +59,7 @@ li{
     position:fixed;    
     top:0;
     width:6px;
-    background: #81b29a;
+    background: #06d6a0;
     z-index:2000;
 }
 .project, .work {
@@ -80,27 +93,15 @@ li{
 }
 
 .download-resume {
-    position:fixed;
-    bottom: 5vh;
-    right: 2rem;
-    font-weight: 700;
-    font-size:25px;  
-    color: rgb(51, 51, 51);
-    border: 2px rgb(51, 51, 51) dashed;
-    padding: 1rem 3rem;   
+  
+    color: rgb(51, 51, 51); 
     letter-spacing: 2px;    
-    z-index:3000;
     transition: 1s;
-}
-.download-resume a {
-    color: rgb(51, 51, 51);
-}
+} 
 
-.download-resume:hover {
-    background-color: #E07A5F;
-    color: white;
+.download-resume:hover {  
     transition: 0.7s;
-    font-size:30px;
+    font-size: larger;
   
 }
 
