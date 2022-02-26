@@ -13,6 +13,8 @@ body {
     /* background-color: #14213d; */
     color: rgb(51, 51, 51);    
     height: 100vh; 
+    background-color: #3D405B;
+    color: white;
 }
 
 footer {
@@ -90,13 +92,12 @@ li{
     padding: 0;
     margin:0;
     width:100vw;   
-    justify-content: space-around;    
-    background-color: #81b29a;
-    z-index: 1000;
+    justify-content: space-around;     
+    z-index: 1000; 
 }
 
 .nav-bar li, .nav-bar li a { 
-    color:rgb(51, 51, 51); 
+    color:white;
     font-size:10px;
     padding: 0.5em;   
     transition: 0.3s;
@@ -112,21 +113,21 @@ li{
     align-items: center; 
     position: relative;  
     width: 100vw;
-    margin-top:10vh;
+    margin-top:40vh;
     padding: 0em; 
     z-index: 100;
     transition: 1s;
     opacity:0;
+    background-color:#F4F1DE
 }
 
 .section-title {   
     grid-column: span 2;
     font-size: 14px;
     text-align: center;  
-    color: white; 
+    color: rgb(51, 51, 51); 
     letter-spacing: 2px; 
-    padding:0; 
-    background-color:#3d405b;
+    padding:0;  
 }
  
 .section-title h3 {
@@ -157,6 +158,7 @@ li{
     text-align: center;  
     letter-spacing: 1px;
     padding-bottom:1em;
+    background-color: #3D405B; 
 }
 .basic-info h1 {
     font-size: 20px;
@@ -165,8 +167,16 @@ li{
     margin:2px;
     font-size:12px;
 }
+
+.title-skills {
+    background-color: #3D405B;
+    color: white;
+    padding-top: 40vh;
+}
 .skills {
     grid-column:  span 2;
+    background-color:#3D405B;
+    padding-bottom: 1rem;
     
 }
 .skills li {
@@ -180,8 +190,57 @@ li{
     color:white;
 }
 
-@media only screen and (min-width:750px) {
+.content-list { 
+    /* list-style:  none; */
+    padding: 0; 
+    
+}
+.custom-shape-divider-top-1645904903 {
+    position: relative;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg); 
+}
 
+.custom-shape-divider-top-1645904903 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 46px; 
+}
+
+.custom-shape-divider-top-1645904903 .shape-fill {
+    fill: #3D405B; 
+}
+.content-list li { 
+    font-size:14px;
+}
+
+.work-experience {
+    background-color:#F4F1DE;
+    color:black;
+}
+
+.project { 
+    color: rgb(51, 51, 51)
+}
+ 
+@media only screen and (min-width:750px) {
+    body {
+        background-color:  white;
+    }
+
+    .basic-info {
+        background-color: white;
+        color: rgb(51, 51, 51)
+    }
+
+    .skills {
+        background-color: white;;
+    }
     .nav-bar { 
         display: block;        
         top: 50%;  
@@ -280,6 +339,7 @@ li{
         z-index: 100;
         transition: 1s;
         opacity:0;    
+        background-color: white;
     }
 
     .section-title{  
@@ -293,6 +353,13 @@ li{
         height: 100%;  
         letter-spacing: 2px;
     }  
+
+    .title-skills {
+        background-color: transparent;
+        color: rgb(51, 51, 51);
+        padding-top: 10vh;
+    }
+
     .skills {
         grid-column: span 1;
     }
@@ -369,7 +436,7 @@ li{
 .keywords li {
     display: inline;
     list-style-type: none; 
-    background-color: #e07a5f;
+    background-color: #E07A5F;
     border-radius: 7px;
     padding: 0 10px; 
     font-size: 12px;
