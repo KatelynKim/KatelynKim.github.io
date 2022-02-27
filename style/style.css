@@ -14,19 +14,17 @@ body {
     color: rgb(51, 51, 51);    
     height: 100vh; 
     background-color: #3D405B;
-    color: white;
+    color: rgb(51, 51, 51);
 }
 
 footer {
     width:50%;
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
-    border-top: 2px rgb(51, 51, 51) dotted;
+    transform: translateX(-50%); 
     text-align: center;
     margin-top:1vh;
-    padding-top:2vh;
-    font-weight: 700;
+    padding-top:2vh; 
     margin-bottom: 5vh;
 }
 
@@ -112,8 +110,7 @@ li{
     grid-template-columns: 1fr 1fr;  
     align-items: center; 
     position: relative;  
-    width: 100vw;
-    margin-top:40vh;
+    width: 100vw; 
     padding: 0em; 
     z-index: 100;
     transition: 1s;
@@ -137,6 +134,7 @@ li{
 
 .profile-img {   
     opacity:0;  
+    margin-top:30vh;
     border-radius:50%;  
     width:100px;
     height:100px;
@@ -155,10 +153,11 @@ li{
 
 .basic-info {
     grid-column: span 2;
+    height:100vh;  
     text-align: center;  
-    letter-spacing: 1px;
-    padding-bottom:1em;
+    letter-spacing: 1px;  
     background-color: #3D405B; 
+    color: white;
 }
 .basic-info h1 {
     font-size: 20px;
@@ -169,13 +168,13 @@ li{
 }
 
 .title-skills {
-    background-color: #3D405B;
-    color: white;
-    padding-top: 40vh;
+    /* background-color: #3D405B; */
+    color: rgb(51, 51, 51);
+    /* padding-top: 40vh; */
 }
 .skills {
     grid-column:  span 2;
-    background-color:#3D405B;
+    /* background-color:#3D405B; */
     padding-bottom: 1rem;
     
 }
@@ -215,25 +214,76 @@ li{
 .page-divider-1 .shape-fill {
     fill: #3D405B; 
 }
+
+.page-divider-2 {
+    position: relative;
+    top: 0; 
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg); 
+    padding: 0;
+}
+
+.page-divider-2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 46px; 
+}
+
+.page-divider-2 .shape-fill {
+    fill: #F4F1DE; 
+}
 .content-list li { 
     font-size:14px;
 }
 
 .work-experience {
     background-color:#F4F1DE;
-    color:black;
+    color:rgb(51, 51, 51);
 }
 
 .project { 
     color: rgb(51, 51, 51)
 }
- 
+.education {
+    text-align: center;
+}
+.education-period {     
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.university h3 {
+    font-size: 16px;
+}
+.icon {
+    font-size: 18px;
+    color: white;
+}
+
+
+.download-resume a {  
+    color: white; 
+    letter-spacing: 2px;    
+    transition: 1s;
+} 
+
+
+.download-resume:hover {  
+    transition: 0.7s;
+    font-size: larger;
+  
+}
+
 @media only screen and (min-width:750px) {
     body {
         background-color:  transparent;
     }
 
     .basic-info {
+        height: 50vh;
         background-color: transparent;
         color: rgb(51, 51, 51)
     }
@@ -316,10 +366,11 @@ li{
     }
 
     .profile-img {
+        margin-top: 15vh;
         width:150px;
         height:150px;
-    } 
-
+    }  
+    
     .basic-info h1 {
         font-size: 50px;
     }
@@ -393,23 +444,40 @@ li{
         display: none;
     }
 
+    .work-experience {
+        background-color:transparent; 
+    }
+
+    .education {
+        text-align: left;
+    }
+    
+    footer {
+        width:50%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%); 
+        text-align: center;
+        font-weight: 700;
+        border-top: 2px rgb(51, 51, 51) dotted;
+        margin-top:1vh;
+        padding-top:2vh; 
+        margin-bottom: 5vh;        
+    }
+
+    .page-divider-2 {
+        display: none;
+    }
+
+    .download-resume a {
+        color: rgb(51, 51, 51);
+    }
     
 
 }
 
+ 
 
-.download-resume {
-  
-    color: rgb(51, 51, 51); 
-    letter-spacing: 2px;    
-    transition: 1s;
-} 
-
-.download-resume:hover {  
-    transition: 0.7s;
-    font-size: larger;
-  
-}
  
 
 .custom-shape-divider-bottom-1645729630 {
